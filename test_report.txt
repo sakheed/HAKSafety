@@ -26,12 +26,12 @@ FAIL src/App.test.tsx
               [36m/>[39m
             [36m</div>[39m
             [36m<p>[39m
-              [0mMoviePedia[0m
+              [0mHAKSafety[0m
             [36m</p>[39m
           [36m</h2>[39m
           [36m<div>[39m
             [36m<b>[39m
-              [0mGroup Members: Sakhee Desai, Heni Patel, Priya Salako, Aman Singh, Kambria Rogalski [0m
+              [0mGroup Members: Sakhee Desai, Heni Patel, Aman Singh, Kambria Rogalski [0m
             [36m</b>[39m
             [36m<div[39m
               [33mclass[39m=[32m"css-gmuwbf"[39m
@@ -445,5 +445,5 @@ All files            |    32.5 |       10 |      35 |    32.5 |
 Test Suites: 4 failed, 4 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.422 s
+Time:        3.093 s
 Ran all test suites.
