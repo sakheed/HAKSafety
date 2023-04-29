@@ -20,8 +20,8 @@ FAIL src/App.test.tsx
               [33mclass[39m=[32m"css-gmuwbf"[39m
             [36m>[39m
               [36m<img[39m
-                [33malt[39m=[32m"Clapboard Logo"[39m
-                [33msrc[39m=[32m"logo512.png"[39m
+                [33malt[39m=[32m"Hackathon Logo"[39m
+                [33msrc[39m=[32m"logo.png"[39m
                 [33mwidth[39m=[32m"150"[39m
               [36m/>[39m
             [36m</div>[39m
@@ -33,300 +33,104 @@ FAIL src/App.test.tsx
             [36m<b>[39m
               [0mGroup Members: Sakhee Desai, Heni Patel, Aman Singh, Kambria Rogalski [0m
             [36m</b>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"css-gmuwbf"[39m
-            [36m>[39m
-              [36m<div>[39m
-                [36m<h3[39m
-                  [33mclass[39m=[32m"chakra-heading css-0"[39m
-                [36m>[39m
-                  [0mChange Role[0m
-                [36m</h3>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"chakra-radio-group css-0"[39m
-                  [33mrole[39m=[32m"radiogroup"[39m
-                [36m>[39m
-                  [36m<div[39m
-                    [33mclass[39m=[32m"chakra-stack css-x9juev"[39m
-                  [36m>[39m
-                    [36m<label[39m
-                      [33mclass[39m=[32m"chakra-radio css-1nqw95c"[39m
-                      [33mdata-checked[39m=[32m""[39m
-                    [36m>[39m
-                      [36m<input[39m
-                        [33mchecked[39m=[32m""[39m
-                        [33mclass[39m=[32m"chakra-radio__input"[39m
-                        [33mid[39m=[32m"radio-:r1:"[39m
-                        [33mname[39m=[32m"radio-:r0:"[39m
-                        [33mstyle[39m=[32m"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"[39m
-                        [33mtype[39m=[32m"radio"[39m
-                        [33mvalue[39m=[32m"Super"[39m
-                      [36m/>[39m
-                      [36m<span[39m
-                        [33maria-hidden[39m=[32m"true"[39m
-                        [33mclass[39m=[32m"chakra-radio__control css-ssalds"[39m
-                        [33mdata-checked[39m=[32m""[39m
-                      [36m/>[39m
-                      [36m<span[39m
-                        [33mclass[39m=[32m"chakra-radio__label css-1y8kf23"[39m
-                        [33mdata-checked[39m=[32m""[39m
-                      [36m>[39m
-                        [0mSuper[0m
-                      [36m</span>[39m
-                    [36m</label>[39m
-                    [36m<label[39m
-                      [33mclass[39m=[32m"chakra-radio css-1nqw95c"[39m
-                    [36m>[39m
-                      [36m<input[39m
-                        [33mclass[39m=[32m"chakra-radio__input"[39m
-                        [33mid[39m=[32m"radio-:r2:"[39m
-                        [33mname[39m=[32m"radio-:r0:"[39m
-                        [33mstyle[39m=[32m"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"[39m
-                        [33mtype[39m=[32m"radio"[39m
-                        [33mvalue[39m=[32m"Admin"[39m
-                      [36m/>[39m
-                      [36m<span[39m
-                        [33maria-hidden[39m=[32m"true"[39m
-                        [33mclass[39m=[32m"chakra-radio__control css-ssalds"[39m
-                      [36m/>[39m
-                      [36m<span[39m
-                        [33mclass[39m=[32m"chakra-radio__label css-1y8kf23"[39m
-                      [36m>[39m
-                        [0mAdmin[0m
-                      [36m</span>[39m
-                    [36m</label>[39m
-                    [36m<label[39m
-                      [33mclass[39m=[32m"chakra-radio css-1nqw95c"[39m
-                    [36m>[39m
-                      [36m<input[39m
-                        [33mclass[39m=[32m"chakra-radio__input"[39m
-                        [33mid[39m=[32m"radio-:r3:"[39m
-                        [33mname[39m=[32m"radio-:r0:"[39m
-                        [33mstyle[39m=[32m"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"[39m
-                        [33mtype[39m=[32m"radio"[39m
-                        [33mvalue[39m=[32m"User"[39m
-                      [36m/>[39m
-                      [36m<span[39m
-                        [33maria-hidden[39m=[32m"true"[39m
-                        [33mclass[39m=[32m"chakra-radio__control css-ssalds"[39m
-                      [36m/>[39m
-                      [36m<span[39m
-                        [33mclass[39m=[32m"chakra-radio__label css-1y8kf23"[39m
-                      [36m>[39m
-                        [0mUser[0m
-                      [36m</span>[39m
-                    [36m</label>[39m
-                  [36m</div>[39m
-                [36m</div>[39m
-                [36m<br />[39m
-                [36m<div>[39m
-                  [0mYour Role: [0m
-                  [36m<span[39m
-                    [33mdata-testid[39m=[32m"colored-box"[39m
-                  [36m>[39m
-                    [0mSuper[0m
-                  [36m</span>[39m
-                [36m</div>[39m
-                [36m<br />[39m
-              [36m</div>[39m
-            [36m</div>[39m
           [36m</div>[39m
           [36m<br />[39m
           [36m<br />[39m
           [36m<div>[39m
-            [36m<div>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [0mHELP![0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div>[39m
-              [36m<h3>[39m
-                [0m HAKS - Advice [0m
-              [36m</h3>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"chakra-form-control css-0"[39m
-                [33mrole[39m=[32m"group"[39m
-              [36m>[39m
-                [36m<label[39m
-                  [33mclass[39m=[32m"chakra-form__label css-uvho5g"[39m
-                  [33mfor[39m=[32m"field-:r4:"[39m
-                  [33mid[39m=[32m"field-:r4:-label"[39m
-                [36m>[39m
-                  [0mWhat Kind of Alert Did You Recieve? [0m
-                [36m</label>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"chakra-select__wrapper css-42b2qy"[39m
-                [36m>[39m
-                  [36m<select[39m
-                    [33mclass[39m=[32m"chakra-select css-1ik61og"[39m
-                    [33mid[39m=[32m"field-:r4:"[39m
-                  [36m>[39m
-                    [36m<option[39m
-                      [33mvalue[39m=[32m""[39m
-                    [36m>[39m
-                      [0mSelect type[0m
-                    [36m</option>[39m
-                    [36m<option[39m
-                      [33mvalue[39m=[32m"hurricane"[39m
-                    [36m>[39m
-                      [0m Hurricane[0m
-                    [36m</option>[39m
-                    [36m<option[39m
-                      [33mvalue[39m=[32m"shooting"[39m
-                    [36m>[39m
-                      [0mShooting[0m
-                    [36m</option>[39m
-                    [36m<option[39m
-                      [33mvalue[39m=[32m"theft"[39m
-                    [36m>[39m
-                      [0mTheft[0m
-                    [36m</option>[39m
-                  [36m</select>[39m
-                  [36m<div[39m
-                    [33mclass[39m=[32m"chakra-select__icon-wrapper css-162mkon"[39m
-                  [36m>[39m
-                    [36m<svg[39m
-                      [33maria-hidden[39m=[32m"true"[39m
-                      [33mclass[39m=[32m"chakra-select__icon"[39m
-                      [33mfocusable[39m=[32m"false"[39m
-                      [33mrole[39m=[32m"presentation"[39m
-                      [33mstyle[39m=[32m"width: 1em; height: 1em; color: currentColor;"[39m
-                      [33mviewBox[39m=[32m"0 0 24 24"[39m
-                    [36m>[39m
-                      [36m<path[39m
-                        [33md[39m=[32m"M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"[39m
-                        [33mfill[39m=[32m"currentColor"[39m
-                      [36m/>[39m
-                    [36m</svg>[39m
-                  [36m</div>[39m
-                [36m</div>[39m
-              [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"css-gmuwbf"[39m
+            [36m>[39m
               [36m<div>[39m
-                [0m [0m
-                [0m [0m
+                [36m<button[39m
+                  [33maria-label[39m=[32m"BLUE BUTTON ALERT"[39m
+                  [33mclass[39m=[32m"chakra-button css-p7mkev"[39m
+                  [33mstyle[39m=[32m"width: 300px; height: 300px; font-size: 150px; background-color: rgb(32, 85, 161); border-radius: 50%; color: white;"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [36m<svg[39m
+                    [33maria-hidden[39m=[32m"true"[39m
+                    [33mclass[39m=[32m"chakra-icon css-onkibi"[39m
+                    [33mfocusable[39m=[32m"false"[39m
+                    [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [36m>[39m
+                    [36m<path[39m
+                      [33md[39m=[32m"M23.119,20,13.772,2.15h0a2,2,0,0,0-3.543,0L.881,20a2,2,0,0,0,1.772,2.928H21.347A2,2,0,0,0,23.119,20ZM11,8.423a1,1,0,0,1,2,0v6a1,1,0,1,1-2,0Zm1.05,11.51h-.028a1.528,1.528,0,0,1-1.522-1.47,1.476,1.476,0,0,1,1.448-1.53h.028A1.527,1.527,0,0,1,13.5,18.4,1.475,1.475,0,0,1,12.05,19.933Z"[39m
+                      [33mfill[39m=[32m"currentColor"[39m
+                    [36m/>[39m
+                  [36m</svg>[39m
+                [36m</button>[39m
               [36m</div>[39m
             [36m</div>[39m
-            [36m<div>[39m
-              [36m<h1>[39m
-                [0mCreate A List [0m
-              [36m</h1>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"css-1ky8x8j"[39m
-              [36m>[39m
-                [36m<div>[39m
-                  [36m<div>[39m
-                    [36m<div>[39m
-                      [0mAdd To Main[0m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mMinions[0m
-                      [36m</button>[39m
-                    [36m</div>[39m
-                    [36m<div>[39m
-                      [0mAdd To Main[0m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mToy Story[0m
-                      [36m</button>[39m
-                    [36m</div>[39m
-                    [36m<div>[39m
-                      [0mAdd To Main[0m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mToy Story 2[0m
-                      [36m</button>[39m
-                    [36m</div>[39m
-                    [36m<div>[39m
-                      [0mAdd To Main[0m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mToy Story 3[0m
-                      [36m</button>[39m
-                    [36m</div>[39m
-                    [36m<div>[39m
-                      [0mAdd To Main[0m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mCars[0m
-                      [36m</button>[39m
-                    [36m</div>[39m
-                    [36m<div>[39m
-                      [0mAdd To Main[0m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mAladdin[0m
-                      [36m</button>[39m
-                    [36m</div>[39m
-                    [36m<div>[39m
-                      [0mAdd To Main[0m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mTangled[0m
-                      [36m</button>[39m
-                    [36m</div>[39m
-                    [36m<div>[39m
-                      [0mAdd To Main[0m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mFrozen[0m
-                      [36m</button>[39m
-                    [36m</div>[39m
-                    [36m<div>[39m
-                      [0mAdd To Main[0m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mWreck-It Ralph[0m
-                      [36m</button>[39m
-                    [36m</div>[39m
-                    [36m<div>[39m
-                      [0mAdd To Main[0m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mMoana[0m
-                      [36m</button>[39m
-                    [36m</div>[39m
-                  [36m</div>[39m
-                [36m</div>[39m
-                [36m<div>[39m
-                  [36m<div>[39m
-                    [36m<strong>[39m
-                      [0mMy Main List:[0m
-                    [36m</strong>[39m
-                    [36m<button[39m
-                      [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
-                      [33mtype[39m=[32m"button"[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"css-gmuwbf"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<h3>[39m
+                  [0m HAKS - Advice [0m
+                [36m</h3>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"chakra-form-control css-0"[39m
+                  [33mrole[39m=[32m"group"[39m
+                [36m>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"chakra-form__label css-uvho5g"[39m
+                    [33mfor[39m=[32m"field-:r0:"[39m
+                    [33mid[39m=[32m"field-:r0:-label"[39m
+                  [36m>[39m
+                    [0mWhat Kind of Alert Did You Recieve? [0m
+                  [36m</label>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"chakra-select__wrapper css-42b2qy"[39m
+                  [36m>[39m
+                    [36m<select[39m
+                      [33mclass[39m=[32m"chakra-select css-1ik61og"[39m
+                      [33mid[39m=[32m"field-:r0:"[39m
                     [36m>[39m
-                      [0mClear List[0m
-                    [36m</button>[39m
+                      [36m<option[39m
+                        [33mvalue[39m=[32m""[39m
+                      [36m>[39m
+                        [0mSelect type[0m
+                      [36m</option>[39m
+                      [36m<option[39m
+                        [33mvalue[39m=[32m"hurricane"[39m
+                      [36m>[39m
+                        [0m Hurricane[0m
+                      [36m</option>[39m
+                      [36m<option[39m
+                        [33mvalue[39m=[32m"shooting"[39m
+                      [36m>[39m
+                        [0mShooting[0m
+                      [36m</option>[39m
+                      [36m<option[39m
+                        [33mvalue[39m=[32m"theft"[39m
+                      [36m>[39m
+                        [0mTheft[0m
+                      [36m</option>[39m
+                    [36m</select>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"chakra-select__icon-wrapper css-162mkon"[39m
+                    [36m>[39m
+                      [36m<svg[39m
+                        [33maria-hidden[39m=[32m"true"[39m
+                        [33mclass[39m=[32m"chakra-select__icon"[39m
+                        [33mfocusable[39m=[32m"false"[39m
+                        [33mrole[39m=[32m"presentation"[39m
+                        [33mstyle[39m=[32m"width: 1em; height: 1em; color: currentColor;"[39m
+                        [33mviewBox[39m=[32m"0 0 24 24"[39m
+                      [36m>[39m
+                        [36m<path[39m
+                          [33md[39m=[32m"M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"[39m
+                          [33mfill[39m=[32m"currentColor"[39m
+                        [36m/>[39m
+                      [36m</svg>[39m
+                    [36m</div>[39m
                   [36m</div>[39m
                 [36m</div>[39m
+                [36m<div>[39m
+                  [0m [0m
+                  [0m [0m
+                [36m</div>[39m
               [36m</div>[39m
-            [36m</div>[39m
-            [36m<div>[39m
-              [0mWatchList[0m
             [36m</div>[39m
           [36m</div>[39m
         [36m</div>[39m
@@ -383,24 +187,25 @@ FAIL src/components/Hidden.test.tsx
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |   31.81 |     7.14 |   36.84 |   31.81 |                   
+All files            |   13.33 |     7.14 |      15 |   13.33 |                   
  src                 |    7.14 |        0 |   33.33 |    7.14 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 8-32              
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/components      |   43.33 |       10 |    37.5 |   43.33 |                   
-  BlueButton.tsx     |   66.66 |       50 |      50 |   66.66 | 8                 
-  CreateList.tsx     |      50 |        0 |   33.33 |      50 | 25-32,45-54       
+ src/components      |   16.12 |       10 |   11.76 |   16.12 |                   
+  BlueButton.tsx     |   66.66 |       50 |      50 |   66.66 | 9                 
+  CreateList.tsx     |       0 |        0 |       0 |       0 | 6-54              
   DragAndDrop.tsx    |       0 |      100 |       0 |       0 | 4                 
   Hidden.tsx         |       0 |      100 |       0 |       0 | 4                 
   Movie.ts           |       0 |        0 |       0 |       0 |                   
   Movies.ts          |       0 |      100 |     100 |       0 | 3                 
-  RoleSelect.tsx     |     100 |      100 |     100 |     100 |                   
+  RecentAlerts.tsx   |       0 |      100 |       0 |       0 | 4                 
+  RoleSelect.tsx     |       0 |      100 |       0 |       0 | 5-7               
   Solutions.tsx      |   27.27 |        0 |      25 |   27.27 | 9-21,32           
-  WatchList.tsx      |     100 |      100 |     100 |     100 |                   
+  WatchList.tsx      |       0 |      100 |       0 |       0 | 5                 
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 4 failed, 4 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.013 s
+Time:        3.115 s
 Ran all test suites.
