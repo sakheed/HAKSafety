@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/henhacks_udalerts/static/css/main.073c9b0a.css",
+    "main.js": "/henhacks_udalerts/static/js/main.f9337385.js",
+    "static/js/787.a9bbcd41.chunk.js": "/henhacks_udalerts/static/js/787.a9bbcd41.chunk.js",
+    "index.html": "/henhacks_udalerts/index.html",
+    "main.073c9b0a.css.map": "/henhacks_udalerts/static/css/main.073c9b0a.css.map",
+    "main.f9337385.js.map": "/henhacks_udalerts/static/js/main.f9337385.js.map",
+    "787.a9bbcd41.chunk.js.map": "/henhacks_udalerts/static/js/787.a9bbcd41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f9337385.js"
+  ]
+}

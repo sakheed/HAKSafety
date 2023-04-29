@@ -1,0 +1,440 @@
+
+> moviepedia@0.1.0 test
+> react-scripts test --coverage
+
+FAIL src/App.test.tsx
+  ● renders learn react link
+
+    TestingLibraryElementError: Unable to find an element with the text: /learn react/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"App"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"chakra-heading css-1r2f04i"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"css-gmuwbf"[39m
+            [36m>[39m
+              [36m<img[39m
+                [33malt[39m=[32m"Clapboard Logo"[39m
+                [33msrc[39m=[32m"logo512.png"[39m
+                [33mwidth[39m=[32m"150"[39m
+              [36m/>[39m
+            [36m</div>[39m
+            [36m<p>[39m
+              [0mMoviePedia[0m
+            [36m</p>[39m
+          [36m</h2>[39m
+          [36m<div>[39m
+            [36m<b>[39m
+              [0mGroup Members: Sakhee Desai, Heni Patel, Priya Salako, Aman Singh, Kambria Rogalski [0m
+            [36m</b>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"css-gmuwbf"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<h3[39m
+                  [33mclass[39m=[32m"chakra-heading css-0"[39m
+                [36m>[39m
+                  [0mChange Role[0m
+                [36m</h3>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"chakra-radio-group css-0"[39m
+                  [33mrole[39m=[32m"radiogroup"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"chakra-stack css-x9juev"[39m
+                  [36m>[39m
+                    [36m<label[39m
+                      [33mclass[39m=[32m"chakra-radio css-1nqw95c"[39m
+                      [33mdata-checked[39m=[32m""[39m
+                    [36m>[39m
+                      [36m<input[39m
+                        [33mchecked[39m=[32m""[39m
+                        [33mclass[39m=[32m"chakra-radio__input"[39m
+                        [33mid[39m=[32m"radio-:r1:"[39m
+                        [33mname[39m=[32m"radio-:r0:"[39m
+                        [33mstyle[39m=[32m"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"[39m
+                        [33mtype[39m=[32m"radio"[39m
+                        [33mvalue[39m=[32m"Super"[39m
+                      [36m/>[39m
+                      [36m<span[39m
+                        [33maria-hidden[39m=[32m"true"[39m
+                        [33mclass[39m=[32m"chakra-radio__control css-ssalds"[39m
+                        [33mdata-checked[39m=[32m""[39m
+                      [36m/>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"chakra-radio__label css-1y8kf23"[39m
+                        [33mdata-checked[39m=[32m""[39m
+                      [36m>[39m
+                        [0mSuper[0m
+                      [36m</span>[39m
+                    [36m</label>[39m
+                    [36m<label[39m
+                      [33mclass[39m=[32m"chakra-radio css-1nqw95c"[39m
+                    [36m>[39m
+                      [36m<input[39m
+                        [33mclass[39m=[32m"chakra-radio__input"[39m
+                        [33mid[39m=[32m"radio-:r2:"[39m
+                        [33mname[39m=[32m"radio-:r0:"[39m
+                        [33mstyle[39m=[32m"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"[39m
+                        [33mtype[39m=[32m"radio"[39m
+                        [33mvalue[39m=[32m"Admin"[39m
+                      [36m/>[39m
+                      [36m<span[39m
+                        [33maria-hidden[39m=[32m"true"[39m
+                        [33mclass[39m=[32m"chakra-radio__control css-ssalds"[39m
+                      [36m/>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"chakra-radio__label css-1y8kf23"[39m
+                      [36m>[39m
+                        [0mAdmin[0m
+                      [36m</span>[39m
+                    [36m</label>[39m
+                    [36m<label[39m
+                      [33mclass[39m=[32m"chakra-radio css-1nqw95c"[39m
+                    [36m>[39m
+                      [36m<input[39m
+                        [33mclass[39m=[32m"chakra-radio__input"[39m
+                        [33mid[39m=[32m"radio-:r3:"[39m
+                        [33mname[39m=[32m"radio-:r0:"[39m
+                        [33mstyle[39m=[32m"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"[39m
+                        [33mtype[39m=[32m"radio"[39m
+                        [33mvalue[39m=[32m"User"[39m
+                      [36m/>[39m
+                      [36m<span[39m
+                        [33maria-hidden[39m=[32m"true"[39m
+                        [33mclass[39m=[32m"chakra-radio__control css-ssalds"[39m
+                      [36m/>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"chakra-radio__label css-1y8kf23"[39m
+                      [36m>[39m
+                        [0mUser[0m
+                      [36m</span>[39m
+                    [36m</label>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+                [36m<br />[39m
+                [36m<div>[39m
+                  [0mYour Role: [0m
+                  [36m<span[39m
+                    [33mdata-testid[39m=[32m"colored-box"[39m
+                  [36m>[39m
+                    [0mSuper[0m
+                  [36m</span>[39m
+                [36m</div>[39m
+                [36m<br />[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<br />[39m
+          [36m<div>[39m
+            [36m<b>[39m
+              [0mGroup Members: [0m
+            [36m</b>[39m
+            [36m<div[39m
+              [33mstyle[39m=[32m"width: 100px; margin: 0px auto;"[39m
+            [36m/>[39m
+          [36m</div>[39m
+          [36m<br />[39m
+          [36m<div>[39m
+            [36m<div>[39m
+              [36m<h1>[39m
+                [0mCreate A List [0m
+              [36m</h1>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"css-1ky8x8j"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Main[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mMinions[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Main[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mToy Story[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Main[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mToy Story 2[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Main[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mToy Story 3[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Main[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mCars[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Main[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mAladdin[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Main[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mTangled[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Main[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mFrozen[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Main[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mWreck-It Ralph[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Main[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mMoana[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                  [36m</div>[39m
+                  [36m<div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Genre List[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mMinions[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Genre List[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mToy Story[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Genre List[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mToy Story 2[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Genre List[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mToy Story 3[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Genre List[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mCars[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Genre List[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mAladdin[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Genre List[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mTangled[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Genre List[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mFrozen[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Genre List[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mWreck-It Ralph[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div>[39m
+                      [0mAdd To Genre List[0m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mMoana[0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<div>[39m
+                    [36m<strong>[39m
+                      [0mMy Main List:[0m
+                    [36m</strong>[39m
+                    [36m<button[39m
+                      [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                      [33mtype[39m=[32m"button"[39m
+                    [36m>[39m
+                      [0mClear List[0m
+                    [36m</button>[39m
+                  [36m</div>[39m
+                  [36m<div>[39m
+                    [36m<strong>[39m
+                      [0mMy Genre List:[0m
+                    [36m</strong>[39m
+                    [36m<button[39m
+                      [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                      [33mtype[39m=[32m"button"[39m
+                    [36m>[39m
+                      [0mClear List[0m
+                    [36m</button>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div>[39m
+              [0mWatchList[0m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+       5 | test("renders learn react link", () => {
+       6 |     render(<App />);
+    >  7 |     const linkElement = screen.getByText(/learn react/i);
+         |                                ^
+       8 |     expect(linkElement).toBeInTheDocument();
+       9 | });
+      10 |
+
+      at Object.getElementError (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/config.js:37:19)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+      at getByText (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+      at Object.<anonymous> (src/App.test.tsx:7:32)
+
+FAIL src/components/WatchList.test.tsx
+  ● Test suite failed to run
+
+    Your test suite must contain at least one test.
+
+      at onResult (node_modules/@jest/core/build/TestScheduler.js:175:18)
+      at node_modules/@jest/core/build/TestScheduler.js:316:17
+      at node_modules/emittery/index.js:260:13
+          at Array.map (<anonymous>)
+      at Emittery.emit (node_modules/emittery/index.js:258:23)
+
+FAIL src/components/CreateList.test.tsx
+  ● Test suite failed to run
+
+    Your test suite must contain at least one test.
+
+      at onResult (node_modules/@jest/core/build/TestScheduler.js:175:18)
+      at node_modules/@jest/core/build/TestScheduler.js:316:17
+      at node_modules/emittery/index.js:260:13
+          at Array.map (<anonymous>)
+      at Emittery.emit (node_modules/emittery/index.js:258:23)
+
+FAIL src/components/Hidden.test.tsx
+  ● Test suite failed to run
+
+    Your test suite must contain at least one test.
+
+      at onResult (node_modules/@jest/core/build/TestScheduler.js:175:18)
+      at node_modules/@jest/core/build/TestScheduler.js:316:17
+      at node_modules/emittery/index.js:260:13
+          at Array.map (<anonymous>)
+      at Emittery.emit (node_modules/emittery/index.js:258:23)
+
+---------------------|---------|----------|---------|---------|-------------------
+File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------|---------|----------|---------|---------|-------------------
+All files            |   29.72 |        0 |   33.33 |   29.72 |                   
+ src                 |    7.14 |        0 |   33.33 |    7.14 |                   
+  App.tsx            |     100 |      100 |     100 |     100 |                   
+  index.tsx          |       0 |      100 |     100 |       0 | 8-32              
+  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
+ src/components      |   43.47 |        0 |   33.33 |   43.47 |                   
+  CreateList.tsx     |   41.17 |        0 |   27.27 |   41.17 | 26-44,56,64-80    
+  DragAndDrop.tsx    |       0 |      100 |       0 |       0 | 4                 
+  Hidden.tsx         |       0 |      100 |       0 |       0 | 4                 
+  Movie.ts           |       0 |        0 |       0 |       0 |                   
+  Movies.ts          |       0 |      100 |     100 |       0 | 3                 
+  RoleSelect.tsx     |     100 |      100 |     100 |     100 |                   
+  WatchList.tsx      |     100 |      100 |     100 |     100 |                   
+---------------------|---------|----------|---------|---------|-------------------
+Test Suites: 4 failed, 4 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        3.292 s
+Ran all test suites.
