@@ -143,6 +143,14 @@ FAIL src/App.test.tsx
           [36m<br />[39m
           [36m<div>[39m
             [36m<div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"chakra-button css-4xx2wk"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mHELP![0m
+              [36m</button>[39m
+            [36m</div>[39m
+            [36m<div>[39m
               [36m<h1>[39m
                 [0mCreate A List [0m
               [36m</h1>[39m
@@ -419,12 +427,13 @@ FAIL src/components/Hidden.test.tsx
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |   29.72 |        0 |   33.33 |   29.72 |                   
+All files            |    32.5 |       10 |      35 |    32.5 |                   
  src                 |    7.14 |        0 |   33.33 |    7.14 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 8-32              
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/components      |   43.47 |        0 |   33.33 |   43.47 |                   
+ src/components      |   46.15 |    16.66 |   35.29 |   46.15 |                   
+  BlueButton.tsx     |   66.66 |       50 |      50 |   66.66 | 8                 
   CreateList.tsx     |   41.17 |        0 |   27.27 |   41.17 | 26-44,56,64-80    
   DragAndDrop.tsx    |       0 |      100 |       0 |       0 | 4                 
   Hidden.tsx         |       0 |      100 |       0 |       0 | 4                 
@@ -436,5 +445,5 @@ All files            |   29.72 |        0 |   33.33 |   29.72 |
 Test Suites: 4 failed, 4 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.292 s
+Time:        4.422 s
 Ran all test suites.
