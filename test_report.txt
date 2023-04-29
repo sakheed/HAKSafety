@@ -3,6 +3,8 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
+  ✕ renders learn react link (99 ms)
+
   ● renders learn react link
 
     TestingLibraryElementError: Unable to find an element with the text: /learn react/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
@@ -21,7 +23,7 @@ FAIL src/App.test.tsx
             [36m>[39m
               [36m<img[39m
                 [33malt[39m=[32m"Hackathon Logo"[39m
-                [33msrc[39m=[32m"logo.png"[39m
+                [33msrc[39m=[32m"old-logo.png"[39m
                 [33mwidth[39m=[32m"150"[39m
               [36m/>[39m
             [36m</div>[39m
@@ -29,11 +31,6 @@ FAIL src/App.test.tsx
               [0mHAKSafety[0m
             [36m</p>[39m
           [36m</h2>[39m
-          [36m<div>[39m
-            [36m<b>[39m
-              [0mGroup Members: Sakhee Desai, Heni Patel, Aman Singh, Kambria Rogalski [0m
-            [36m</b>[39m
-          [36m</div>[39m
           [36m<br />[39m
           [36m<br />[39m
           [36m<div>[39m
@@ -61,6 +58,8 @@ FAIL src/App.test.tsx
                 [36m</button>[39m
               [36m</div>[39m
             [36m</div>[39m
+            [36m<br />[39m
+            [36m<br />[39m
             [36m<div[39m
               [33mclass[39m=[32m"css-gmuwbf"[39m
             [36m>[39m
@@ -132,7 +131,115 @@ FAIL src/App.test.tsx
                 [36m</div>[39m
               [36m</div>[39m
             [36m</div>[39m
+            [36m<br />[39m
+            [36m<br />[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"css-gmuwbf"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"chakra-card css-r29fgq"[39m
+                  [33mstyle[39m=[32m"width: 90vw;"[39m
+                [36m>[39m
+                  [36m<img[39m
+                    [33malt[39m=[32m"Gun"[39m
+                    [33msrc[39m=[32m"https://images.unsplash.com/photo-1581955957646-b5a446b6100a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"[39m
+                    [33mstyle[39m=[32m"width: 100px;"[39m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"chakra-stack css-n21gh5"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"chakra-card__body css-0"[39m
+                    [36m>[39m
+                      [36m<h2[39m
+                        [33mclass[39m=[32m"chakra-heading css-0"[39m
+                      [36m>[39m
+                        [0mCrime Alert: Shooting[0m
+                      [36m</h2>[39m
+                      [36m<span[39m
+                        [33mstyle[39m=[32m"width: 100px;"[39m
+                      [36m>[39m
+                        [0mNewark Police Department is investigating a report of shots fired in the area East Main Street/Choate Street. Avoid the area. Call UDPD 831-2222 or 911 if you need emergency assistance. Members of our community are reminded to be vigilant. If you see something, say something.  Be aware of your surroundings and use well-lit paths.  Travel in groups when possible and call 911 to report suspicious activity.[0m
+                      [36m</span>[39m
+                    [36m</div>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"chakra-card css-r29fgq"[39m
+                  [33mstyle[39m=[32m"width: 90vw;"[39m
+                [36m>[39m
+                  [36m<img[39m
+                    [33malt[39m=[32m"Just Say No"[39m
+                    [33msrc[39m=[32m"https://images.unsplash.com/photo-1453592256941-41c97c1d396a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1891&q=80"[39m
+                    [33mstyle[39m=[32m"width: 100px;"[39m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"chakra-stack css-n21gh5"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"chakra-card__body css-0"[39m
+                    [36m>[39m
+                      [36m<h2[39m
+                        [33mclass[39m=[32m"chakra-heading css-0"[39m
+                      [36m>[39m
+                        [0mCrime Alert: Sexual Assault [0m
+                      [36m</h2>[39m
+                      [36m<span[39m
+                        [33mstyle[39m=[32m"width: 50vw;"[39m
+                      [36m>[39m
+                        [0mThe University of Delaware Police Department is investigating the report of a sexual assault that occurred on east campus.  Members of the community are reminded to be vigilant.  If you see something, say something.  UDPD is committed to assisting victims.  UD’s Sexual Offense Support program provides crisis support and victim advocacy 24/7 by calling (302)831-1001 and pressing “1”.[0m
+                      [36m</span>[39m
+                    [36m</div>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"chakra-card css-r29fgq"[39m
+                  [33mstyle[39m=[32m"width: 90vw;"[39m
+                [36m>[39m
+                  [36m<img[39m
+                    [33malt[39m=[32m"Hurrciane"[39m
+                    [33msrc[39m=[32m"https://plus.unsplash.com/premium_photo-1664303499312-917c50e4047b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"[39m
+                    [33mstyle[39m=[32m"width: 100px;"[39m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"chakra-stack css-n21gh5"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"chakra-card__body css-0"[39m
+                    [36m>[39m
+                      [36m<h2[39m
+                        [33mclass[39m=[32m"chakra-heading css-0"[39m
+                      [36m>[39m
+                        [0mWeather Alert: Tornado [0m
+                      [36m</h2>[39m
+                      [36m<span[39m
+                        [33mstyle[39m=[32m"width: 50vw;"[39m
+                      [36m>[39m
+                        [0mA Tornado Warning for New Castle County until 7PM. Move indoors to a low level or secure interior space. Stay away from windows/glass walls. Monitor weather updates on television/radio. Refer to https://www1.udel.edu/safety/info/tornado.html for safety and related additional information.[0m
+                      [36m</span>[39m
+                    [36m</div>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<br />[39m
+            [36m<br />[39m
           [36m</div>[39m
+          [36m<hr[39m
+            [33maria-orientation[39m=[32m"horizontal"[39m
+            [33mclass[39m=[32m"chakra-divider css-14p6b9"[39m
+          [36m/>[39m
+          [36m<br />[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"chakra-container css-0"[39m
+          [36m>[39m
+            [0mHAKSafety 2023[0m
+            [36m<br />[39m
+            [0mHeni Patel, Aman Singh, Kambria Rogalski, Sakhee Desai[0m
+          [36m</div>[39m
+          [36m<br />[39m
+          [36m<br />[39m
         [36m</div>[39m
       [36m</div>[39m
     [36m</body>[39m
@@ -150,62 +257,26 @@ FAIL src/App.test.tsx
       at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
       at getByText (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
       at Object.<anonymous> (src/App.test.tsx:7:32)
-
-FAIL src/components/WatchList.test.tsx
-  ● Test suite failed to run
-
-    Your test suite must contain at least one test.
-
-      at onResult (node_modules/@jest/core/build/TestScheduler.js:175:18)
-      at node_modules/@jest/core/build/TestScheduler.js:316:17
-      at node_modules/emittery/index.js:260:13
-          at Array.map (<anonymous>)
-      at Emittery.emit (node_modules/emittery/index.js:258:23)
-
-FAIL src/components/CreateList.test.tsx
-  ● Test suite failed to run
-
-    Your test suite must contain at least one test.
-
-      at onResult (node_modules/@jest/core/build/TestScheduler.js:175:18)
-      at node_modules/@jest/core/build/TestScheduler.js:316:17
-      at node_modules/emittery/index.js:260:13
-          at Array.map (<anonymous>)
-      at Emittery.emit (node_modules/emittery/index.js:258:23)
-
-FAIL src/components/Hidden.test.tsx
-  ● Test suite failed to run
-
-    Your test suite must contain at least one test.
-
-      at onResult (node_modules/@jest/core/build/TestScheduler.js:175:18)
-      at node_modules/@jest/core/build/TestScheduler.js:316:17
-      at node_modules/emittery/index.js:260:13
-          at Array.map (<anonymous>)
-      at Emittery.emit (node_modules/emittery/index.js:258:23)
+      at TestScheduler.scheduleTests (node_modules/@jest/core/build/TestScheduler.js:333:13)
+      at runJest (node_modules/@jest/core/build/runJest.js:404:19)
+      at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
+      at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |   13.33 |     7.14 |      15 |   13.33 |                   
+All files            |   24.13 |     8.33 |      40 |   24.13 |                   
  src                 |    7.14 |        0 |   33.33 |    7.14 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 8-32              
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/components      |   16.12 |       10 |   11.76 |   16.12 |                   
+ src/components      |      40 |     12.5 |   42.85 |      40 |                   
   BlueButton.tsx     |   66.66 |       50 |      50 |   66.66 | 9                 
-  CreateList.tsx     |       0 |        0 |       0 |       0 | 6-54              
-  DragAndDrop.tsx    |       0 |      100 |       0 |       0 | 4                 
-  Hidden.tsx         |       0 |      100 |       0 |       0 | 4                 
-  Movie.ts           |       0 |        0 |       0 |       0 |                   
-  Movies.ts          |       0 |      100 |     100 |       0 | 3                 
-  RecentAlerts.tsx   |       0 |      100 |       0 |       0 | 4                 
-  RoleSelect.tsx     |       0 |      100 |       0 |       0 | 5-7               
+  RecentAlerts.tsx   |     100 |      100 |     100 |     100 |                   
   Solutions.tsx      |   27.27 |        0 |      25 |   27.27 | 9-21,32           
-  WatchList.tsx      |       0 |      100 |       0 |       0 | 5                 
 ---------------------|---------|----------|---------|---------|-------------------
-Test Suites: 4 failed, 4 total
+Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.115 s
+Time:        2.459 s
 Ran all test suites.
