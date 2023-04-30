@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (193 ms)
+  ✕ renders learn react link (225 ms)
 
   ● renders learn react link
 
@@ -111,13 +111,20 @@ FAIL src/App.test.tsx
                     [36m<br />[39m
                     [36m<div[39m
                       [33mclass[39m=[32m"chakra-card css-d2qxo3"[39m
-                      [33mstyle[39m=[32m"width: 90vw;"[39m
+                      [33mstyle[39m=[32m"width: 90vw; border: 2px solid #ccc;"[39m
                     [36m>[39m
-                      [36m<img[39m
-                        [33malt[39m=[32m"Gun"[39m
-                        [33msrc[39m=[32m"https://images.unsplash.com/photo-1581955957646-b5a446b6100a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"[39m
-                        [33mstyle[39m=[32m"width: 100px;"[39m
-                      [36m/>[39m
+                      [36m<a[39m
+                        [33mhref[39m=[32m"https://tinyurl.com/haksafetymap1"[39m
+                        [33mrel[39m=[32m"noreferrer"[39m
+                        [33mstyle[39m=[32m"width: 365px; height: 140px;"[39m
+                        [33mtarget[39m=[32m"_blank"[39m
+                      [36m>[39m
+                        [36m<img[39m
+                          [33malt[39m=[32m"Map 1"[39m
+                          [33msrc[39m=[32m"map1.png"[39m
+                          [33mstyle[39m=[32m"width: 140px; height: 140px; border-right: 2px solid #ccc;"[39m
+                        [36m/>[39m
+                      [36m</a>[39m
                       [36m<div[39m
                         [33mclass[39m=[32m"chakra-stack css-n21gh5"[39m
                       [36m>[39m
@@ -139,13 +146,20 @@ FAIL src/App.test.tsx
                     [36m</div>[39m
                     [36m<div[39m
                       [33mclass[39m=[32m"chakra-card css-d2qxo3"[39m
-                      [33mstyle[39m=[32m"width: 90vw;"[39m
+                      [33mstyle[39m=[32m"width: 90vw; border: 2px solid #ccc;"[39m
                     [36m>[39m
-                      [36m<img[39m
-                        [33malt[39m=[32m"Just Say No"[39m
-                        [33msrc[39m=[32m"https://images.unsplash.com/photo-1453592256941-41c97c1d396a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1891&q=80"[39m
-                        [33mstyle[39m=[32m"width: 100px;"[39m
-                      [36m/>[39m
+                      [36m<a[39m
+                        [33mhref[39m=[32m"https://tinyurl.com/haksafetymap2"[39m
+                        [33mrel[39m=[32m"noreferrer"[39m
+                        [33mstyle[39m=[32m"width: 345px; height: 140px;"[39m
+                        [33mtarget[39m=[32m"_blank"[39m
+                      [36m>[39m
+                        [36m<img[39m
+                          [33malt[39m=[32m"Map 2"[39m
+                          [33msrc[39m=[32m"map2.png"[39m
+                          [33mstyle[39m=[32m"width: 140px; height: 140px; border-right: 2px solid #ccc;"[39m
+                        [36m/>[39m
+                      [36m</a>[39m
                       [36m<div[39m
                         [33mclass[39m=[32m"chakra-stack css-n21gh5"[39m
                       [36m>[39m
@@ -167,13 +181,20 @@ FAIL src/App.test.tsx
                     [36m</div>[39m
                     [36m<div[39m
                       [33mclass[39m=[32m"chakra-card css-d2qxo3"[39m
-                      [33mstyle[39m=[32m"width: 90vw;"[39m
+                      [33mstyle[39m=[32m"width: 90vw; border: 2px solid #ccc;"[39m
                     [36m>[39m
-                      [36m<img[39m
-                        [33malt[39m=[32m"Hurrciane"[39m
-                        [33msrc[39m=[32m"https://plus.unsplash.com/premium_photo-1664303499312-917c50e4047b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"[39m
-                        [33mstyle[39m=[32m"width: 100px;"[39m
-                      [36m/>[39m
+                      [36m<a[39m
+                        [33mhref[39m=[32m"https://tinyurl.com/haksafetymap3"[39m
+                        [33mrel[39m=[32m"noreferrer"[39m
+                        [33mstyle[39m=[32m"width: 255px; height: 140px;"[39m
+                        [33mtarget[39m=[32m"_blank"[39m
+                      [36m>[39m
+                        [36m<img[39m
+                          [33malt[39m=[32m"Map 3"[39m
+                          [33msrc[39m=[32m"map3.png"[39m
+                          [33mstyle[39m=[32m"width: 140px; height: 140px; border-right: 2px solid #ccc;"[39m
+                        [36m/>[39m
+                      [36m</a>[39m
                       [36m<div[39m
                         [33mclass[39m=[32m"chakra-stack css-n21gh5"[39m
                       [36m>[39m
@@ -280,9 +301,9 @@ FAIL src/App.test.tsx
                             [0mSelect type[0m
                           [36m</option>[39m
                           [36m<option[39m
-                            [33mvalue[39m=[32m"hurricane"[39m
+                            [33mvalue[39m=[32m"weather"[39m
                           [36m>[39m
-                            [0m Hurricane[0m
+                            [0mSevere Weather[0m
                           [36m</option>[39m
                           [36m<option[39m
                             [33mvalue[39m=[32m"shooting"[39m
@@ -293,6 +314,16 @@ FAIL src/App.test.tsx
                             [33mvalue[39m=[32m"theft"[39m
                           [36m>[39m
                             [0mTheft[0m
+                          [36m</option>[39m
+                          [36m<option[39m
+                            [33mvalue[39m=[32m"sa"[39m
+                          [36m>[39m
+                            [0mSexual Assault[0m
+                          [36m</option>[39m
+                          [36m<option[39m
+                            [33mvalue[39m=[32m"fire"[39m
+                          [36m>[39m
+                            [0mFire / Arson[0m
                           [36m</option>[39m
                         [36m</select>[39m
                         [36m<div[39m
@@ -331,6 +362,33 @@ FAIL src/App.test.tsx
           [36m<div[39m
             [33mstyle[39m=[32m"background-color: rgb(190, 227, 248); padding: 30px 0px 40px 0px;"[39m
           [36m>[39m
+            [36m<div>[39m
+              [36m<b>[39m
+                [0mImportant Numbers:[0m
+              [36m</b>[39m
+              [36m<div>[39m
+                [0mUD Police Department: 302-831-2222[0m
+              [36m</div>[39m
+              [36m<div>[39m
+                [0mPolice Department: 911[0m
+              [36m</div>[39m
+              [36m<div>[39m
+                [0mSuicide and Crisis Lifeline: 988[0m
+              [36m</div>[39m
+              [36m<div>[39m
+                [0mUD Student Health: 302-831-2226[0m
+              [36m</div>[39m
+              [36m<div>[39m
+                [0mS.O.S Helpline: 302-831-1001 press 1[0m
+              [36m</div>[39m
+              [36m<div>[39m
+                [0mStudent Health: (302) 831-3457[0m
+              [36m</div>[39m
+              [36m<div>[39m
+                [0mNon-Emergency: 302-831-2117[0m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<br />[39m
             [36m<b>[39m
               [0mHAKSafety 2023[0m
             [36m</b>[39m
@@ -338,6 +396,10 @@ FAIL src/App.test.tsx
             [36m<div>[39m
               [0mHenHacks UD[0m
             [36m</div>[39m
+            [36m<br />[39m
+            [36m<b>[39m
+              [0mTeam Members[0m
+            [36m</b>[39m
             [36m<br />[39m
             [0mHeni Patel, Aman Singh, Kambria Rogalski, Sakhee Desai[0m
           [36m</div>[39m
@@ -366,18 +428,18 @@ FAIL src/App.test.tsx
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |   24.13 |     8.33 |      40 |   24.13 |                   
+All files            |   21.87 |     6.25 |   44.44 |   21.87 |                   
  src                 |    7.14 |        0 |   33.33 |    7.14 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 8-32              
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/components      |      40 |     12.5 |   42.85 |      40 |                   
+ src/components      |   33.33 |     8.33 |      50 |   33.33 |                   
   BlueButton.tsx     |   66.66 |       50 |      50 |   66.66 | 9                 
   RecentAlerts.tsx   |     100 |      100 |     100 |     100 |                   
-  Solutions.tsx      |   27.27 |        0 |      25 |   27.27 | 9-21,33           
+  Solutions.tsx      |   21.42 |        0 |   33.33 |   21.42 | 9-87,129          
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.332 s
+Time:        3.208 s
 Ran all test suites.
