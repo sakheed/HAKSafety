@@ -1,8 +1,8 @@
-import React from "react";
-import new_logo from "./logo.svg";
+import React from "React";
+//import new_logo from "./logo.svg";
 import "./App.css";
 import { Center, Container, Divider, Heading, ListItem, Tab, TabList, TabPanel, TabPanels, Tabs, UnorderedList } from "@chakra-ui/react";
-import { Button } from "@chakra-ui/react";
+//import { Button } from React;
 import {BlueButton} from "./components/BlueButton";
 import {Solutions} from "./components/Solutions";
 import { RecentAlerts } from "./components/RecentAlerts";
