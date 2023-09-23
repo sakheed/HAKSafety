@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/HAKSafety/static/css/main.073c9b0a.css",
-    "main.js": "/HAKSafety/static/js/main.f08c6e1d.js",
+    "main.css": "/HAKSafety/static/css/main.18d345b2.css",
+    "main.js": "/HAKSafety/static/js/main.8003e569.js",
     "static/js/787.a9bbcd41.chunk.js": "/HAKSafety/static/js/787.a9bbcd41.chunk.js",
     "index.html": "/HAKSafety/index.html",
-    "main.073c9b0a.css.map": "/HAKSafety/static/css/main.073c9b0a.css.map",
-    "main.f08c6e1d.js.map": "/HAKSafety/static/js/main.f08c6e1d.js.map",
+    "main.18d345b2.css.map": "/HAKSafety/static/css/main.18d345b2.css.map",
+    "main.8003e569.js.map": "/HAKSafety/static/js/main.8003e569.js.map",
     "787.a9bbcd41.chunk.js.map": "/HAKSafety/static/js/787.a9bbcd41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f08c6e1d.js"
+    "static/css/main.18d345b2.css",
+    "static/js/main.8003e569.js"
   ]
 }
